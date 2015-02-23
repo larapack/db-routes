@@ -1,0 +1,19 @@
+{
+  "name": "marktopper/laravel-dbroutes",
+  "description": "Laravel DBRoutes is a package to run Routes from the database using Laravel.",
+  "version": "0.0.1",
+  "authors": [
+      {
+          "name": "Mark Topper",
+          "email": "hi@webman.io"
+      }
+  ],
+  "autoload": {
+    "classmap": [
+        "src/MarkTopper/LaravelDBRoutes"
+    ],
+    "psr-0": {
+        "MarkTopper\\LaravelDBRoutes": "src/MarkTopper/LaravelDBRoutes/"
+    }
+  }
+}
